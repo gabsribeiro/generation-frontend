@@ -1,0 +1,134 @@
+/*CSS index.html and contato.html*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&family=Open+Sans:wght@300;400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #262626;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 8vh;
+}
+
+ul {
+    font-family: 'Lexend Mega', 'Open Sans', Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #D96248;
+}
+
+h1 {
+    margin-top: 5%;
+    font-family: 'Lexend Mega', 'Open Sans', Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+h2 {
+    font-family: 'Lexend Mega', 'Open Sans', Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin: 25px;
+}
+
+p {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-flow: row;
+    text-indent: 40px;
+    width: 60%;
+    text-align: justify;
+    margin: auto;
+}
+
+/*CSS index.html*/
+
+img {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+div.video {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin: 3%;
+}
+
+/*CSS contato.html*/
+
+section {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+form input, form textarea {
+    outline: unset;
+    padding: 15px;
+    min-width: 300px;
+    border: 1px solid #D96248;
+    border-radius: 20px;
+}
+
+form input:focus, form textarea:focus {
+    background-color: #d96348;
+}
+
+form input[type=submit] {
+    background-color: #D96248;
+    color: white;
+    cursor: pointer;
+}
+
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+}
