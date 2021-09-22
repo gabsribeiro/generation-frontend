@@ -25,16 +25,19 @@
         <section>
             <form>
                 <div class="input-name">
-                    <input class="input1" placeholder="Nome" type="text" name="Nome" required>
+                    <input class="input1" placeholder="Nome" type="text" name="Nome" id="nome" onkeyup="ValidationFormNome()" required> 
                 </div>
+                <div id="txt-nome"></div>
                 <div>
-                    <input class="input1" placeholder="Assunto" type="text" name="Assunto" required>
+                    <input class="input1" placeholder="Assunto" type="text" name="Assunto" id="assunto" onkeyup="ValidationFormAssunto()" required>
                 </div>
+                <div id="txt-assunto"></div>
                 <div>
-                    <textarea class="input1" placeholder="Mensagem" rows="5" name="mensagem" required></textarea>
+                    <textarea class="input1" placeholder="Mensagem" rows="5" name="mensagem" id="mensagem" onkeyup="ValidationFormMensagem()" required></textarea>
                 </div>
+                <div id="txt-mensagem"></div>
                 <div class="submit">
-                    <input type="submit" value="Enviar">
+                    <input type="submit" value="Enviar" onclick="SendValidation()">
                 </div>
             </form>
         </section>
