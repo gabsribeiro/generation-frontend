@@ -17,7 +17,7 @@ nav {
     height: 8vh;
 }
 
-ul {
+ul.main-nav {
     font-family: 'Lexend Mega', 'Open Sans', Arial, Helvetica, sans-serif;
     list-style-type: none;
     margin: 0;
@@ -38,7 +38,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+#id_1:hover {
     background-color: #111;
 }
 
@@ -70,6 +70,63 @@ p {
     width: 60%;
     text-align: justify;
     margin: auto;
+}
+
+footer {
+    background-color: white;
+    margin-bottom: 0;
+    height: auto;
+    width: auto;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    color: black;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1rem;
+}
+
+.social-medias {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.social-medias li {
+    margin: 0 5px;
+}
+
+.social-medias a {
+    text-decoration: none;
+}
+
+.footer-bottom p {
+    text-align: center;
+    justify-content: center;
+    width: auto;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    text-indent: 0;
+    padding-bottom: 20px;
+}
+
+.icon-socialmedia {
+    height: 30px;
+    width: 30px;
 }
 
 /*CSS index.html*/
