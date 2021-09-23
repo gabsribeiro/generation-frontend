@@ -14,7 +14,7 @@
 <body>
     <!-- NavBar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
-        <div class="container">
+        <div class="container-fluid">
             <a href="#" class="navbar-brand">dev{cine}</a>
             <button type="button" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navbar">
@@ -24,16 +24,16 @@
                 <div class="mx-auto"></div>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="#" class="nav-link text-white">Início</a>
+                        <a href="#id-film" class="nav-link text-white">Sobre o filme</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link text-white">Experimente</a>
+                        <a href="#" class="nav-link text-white">Elenco</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link text-white">Explore</a>
+                        <a href="#" class="nav-link text-white">Diretor</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link text-white">Contato</a>
+                    <li class="nav-item"> 
+                        <a href="#" class="nav-link text-white">Trilha sonora</a>
                     </li>
                 </ul>
             </div>
@@ -43,27 +43,45 @@
     <!-- Banner Image -->
     <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
         <div class="content text-center">
-            <h1 class="text-white">O CINEMA NA SUA CASA</h1>
+            <h1 class="h1-title">INTERSTELLAR</h1>
         </div>
     </div>
 
-    <!-- Main Content Area -->
-    <div class="container my-5 d-grid gap-5">
-        <div class="p-5 border">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet voluptatibus, saepe ut nostrum ipsum
-                repellat sit voluptas id odit a assumenda, quidem possimus perspiciatis, illo rem sed deserunt? Nisi,
-                ad!</p>
+    <!-- Column -->
+    <div class="container-fluid p-5 bg-black text-white justify-content-center align-items-center">
+        <div class="row">
+            <h4 class="mb-5 ms-4 about-film" id="id-film">
+                Sobre o filme
+            </h4>
+            <div class="col text-align">
+                <p class="m-1 px-4">Interstellar (2014) é um filme épico de ficção científica dirigido e produzido por
+                    Christopher Nolan.
+                    O longa-metragem conta a complexa história de Cooper, um piloto da NASA que tem a difícil tarefa de
+                    salvar a espécie humana da extinção. Num cenário de catástrofe, o planeta Terra começa a sofrer com
+                    crises ambientais sérias. A solução encontrada pela NASA é descobrir outro planeta onde os humanos
+                    possam habitar</p>
+            </div>
+            <div class="col text-align">
+                <p class="m-1 px-4">Interstellar estreou em 26 de outubro de 2014, em Los Angeles, Califórnia. Nos
+                    Estados Unidos, foi
+                    lançado pela primeira vez em película, expandindo-se para locais com projetores digitais. O filme
+                    teve uma receita bruta mundial de mais de $ 677 milhões (e $ 701 milhões com relançamentos
+                    subsequentes), tornando-se o décimo filme de maior bilheteria de 2014.</p>
+            </div>
+            <div class="col text-align">
+                <p class="m-1 px-4">Interestelar ganhou 40 prêmios, inclusive um Oscar (de efeitos visuais), fora 137
+                    outras indicações,
+                    inclusive a quatro Oscars (entre eles a de trilha sonora, assinada pelo mago das trilhas para
+                    superespetáculos Hans Zimmer, e os de mixagem de som e edição de som, extraordinários).</p>
+            </div>
         </div>
-        <div class="p-5 border">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet voluptatibus, saepe ut nostrum ipsum
-                repellat sit voluptas id odit a assumenda, quidem possimus perspiciatis, illo rem sed deserunt? Nisi,
-                ad!</p>
-        </div>
-        <div class="p-5 border">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet voluptatibus, saepe ut nostrum ipsum
-                repellat sit voluptas id odit a assumenda, quidem possimus perspiciatis, illo rem sed deserunt? Nisi,
-                ad!</p>
-        </div>
+    </div>
+
+    <!-- Video -->
+    <div class="container-fluid d-flex justify-content-center bg-black">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zSWdZVtXT7E" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
