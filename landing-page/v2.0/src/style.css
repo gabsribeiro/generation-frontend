@@ -15,6 +15,18 @@
     font-size: 45px;
     color: white;
     letter-spacing: 10px;
+    animation: text 3s 1;
+}
+
+@keyframes text {
+    0% {
+        color: grey;
+        margin: -40px;
+    }
+    30%{
+        letter-spacing: 10px;
+        margin-bottom: -40px;
+    }
 }
 
 .text-align {
@@ -37,4 +49,15 @@
 
 .img-zimmer {
     justify-content: center;
+}
+
+.form-button {
+    background-color: #8aa6bf;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.form-button:hover {
+    background-color: #295773;
 }
