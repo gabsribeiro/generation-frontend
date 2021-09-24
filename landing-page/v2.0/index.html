@@ -27,13 +27,16 @@
                         <a href="#id-film" class="nav-link text-white">Sobre o filme</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link text-white">Elenco</a>
+                        <a href="#id-cast" class="nav-link text-white">Elenco</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link text-white">Diretor</a>
+                        <a href="#id-director" class="nav-link text-white">Diretor</a>
                     </li>
-                    <li class="nav-item"> 
-                        <a href="#" class="nav-link text-white">Trilha sonora</a>
+                    <li class="nav-item">
+                        <a href="#id-sound" class="nav-link text-white">Trilha sonora</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#id-img" class="nav-link text-white">Imagens</a>
                     </li>
                 </ul>
             </div>
@@ -48,11 +51,11 @@
     </div>
 
     <!-- Column -->
-    <div class="container-fluid p-5 bg-black text-white justify-content-center align-items-center">
+    <div class="container-fluid d-flex bg-black text-white pt-5 justify-content-center">
+        <h4 class="ms-5 subtitle-nav" id="id-film">Sobre o filme</h4>
+    </div>
+    <div class="container-fluid py-5 bg-black text-white justify-content-center align-items-center">
         <div class="row">
-            <h4 class="mb-5 ms-4 about-film" id="id-film">
-                Sobre o filme
-            </h4>
             <div class="col text-align">
                 <p class="m-1 px-4">Interstellar (2014) é um filme épico de ficção científica dirigido e produzido por
                     Christopher Nolan.
@@ -78,17 +81,225 @@
     </div>
 
     <!-- Video -->
-    <div class="container-fluid d-flex justify-content-center bg-black">
+    <div class="container-fluid d-flex justify-content-center bg-black pb-5">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/zSWdZVtXT7E" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
     </div>
+
+    <!-- Cards -->
+    <div class="container-fluid d-flex bg-black text-white pt-5 justify-content-center">
+        <h4 class="mb-5 ms-5 subtitle-nav" id="id-cast">Elenco</h4>
+    </div>
+    <div class="container-fluid d-flex bg-black justify-content-center">
+        <div class="row row-cols-1 row-cols-md-4" style="width: 50rem;">
+            <div class="col">
+                <div class="card bg-black text-white">
+                    <img src="src/img/matthew.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Matthew McConaughey</h5>
+                        <p class="card-text">Joseph Cooper</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-black text-white">
+                    <img src="src/img/anne.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Anne Hathaway</h5>
+                        <p class="card-text">Dra. Amelia Brand</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-black text-white">
+                    <img src="src/img/jessica.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Jessica Chastain</h5>
+                        <p class="card-text">Murphy Cooper</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-black text-white">
+                    <img src="src/img/mackenzie.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mackenzie Foy</h5>
+                        <p class="card-text"> Murphy jovem</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid d-flex bg-black justify-content-center pt-2">
+        <div class="row row-cols-1 row-cols-md-4 mb-3" style="width: 50rem;">
+            <div class="col">
+                <div class="card bg-black text-white">
+                    <img src="src/img/damon.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Matt Damon</h5>
+                        <p class="card-text">Dr. Mann</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-black text-white">
+                    <img src="src/img/michael.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Michael Caine</h5>
+                        <p class="card-text">Professor Brand</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-black text-white">
+                    <img src="src/img/wes.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Wes Bentley</h5>
+                        <p class="card-text">Dr. Doyle</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-black text-white">
+                    <img src="src/img/david.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">David Gyasi</h5>
+                        <p class="card-text">Dr. Romilly</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Banner Image - Christopher Nolan -->
+    <div class="container-fluid d-flex bg-black text-white pt-5 justify-content-center">
+        <h4 class="mt-5 ms-5 subtitle-nav" id="id-director">Diretor</h4>
+    </div>
+    <div class="image-nolan container-fluid d-flex bg-black pt-5 justify-content-center">
+        <img src="src/img/nolan.jpg" class="img-fluid" alt="">
+    </div>
+
+    <div class="container-fluid d-flex bg-black text-white pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col align-self-flex-start">
+                    <p class="text-align px-4">Com apenas sete anos de idade, Christopher Nolan já se arriscava por trás
+                        das
+                        câmeras.
+                        Utilizando-se da câmera Super 8 do pai, ele realizou vários pequenos filmes estrelados por seus
+                        brinquedos. A vontade de dirigir não passou e ele acabou se tornando um importante realizador.
+                        Formou-se em literatura na Universidade de Londres, na mesma época em que começou a realizar
+                        filmes em 16mm. Seu curta "Larceny" foi exibido no Festival de Cinema de Cambridge em 1996.
+                        Nolan estreou na direção com Following (1998), mas foi Amnésia (2000) que chamou a atenção da
+                        grande público, abrindo seu caminho para o sucesso em Hollywood. Na sequência, comandou Al
+                        Pacino, Robin Williams e Hilary Swank em Insônia (2002).</p>
+                </div>
+                <div class="col align-self-flex-start">
+                    <p class="text-align px-4">Em 2005, dirigiu o filme que mudou para sempre sua história: Batman
+                        Begins.
+                        Ele investiu em um Homem-Morcego mais sombrio e realista, o que ficou ainda mais claro na
+                        continuação, Batman - O Cavaleiro das Trevas. O segundo longa rendeu um Oscar póstumo para Heath
+                        Ledger, que brilhou na pele do vilão Coringa. Com O Cavaleiro das Trevas Ressurge, fecha sua
+                        trilogia sobre o herói.
+                        Em um período "entre-Batmans" realizou A Origem e chamou a atenção pela criatividade e pela
+                        complexidade narrativa. O filme arrecadou mais de US$ 800 milhões em todo mundo e conquistou
+                        estatuetas no Oscar.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Trilha Sonora -->
+    <div class="container-fluid d-flex bg-black text-white pt-5 justify-content-center">
+        <h4 class="mt-5 ms-5 subtitle-nav" id="id-sound">Trilha Sonora</h4>
+    </div>
+    <div class="container-fluid d-flex bg-black text-white pt-5 justify-content-center">
+        <iframe src="https://open.spotify.com/embed/album/3B61kSKTxlY36cYgzvf3cP" width="60%" height="380"
+            frameBorder="0" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+    </div>
+    <div class="container-fluid d-flex bg-black text-white pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col align-self-center">
+                    <h5 class="text-align px-4">Hans Zimmer</h5>
+                    <p class="text-align px-4">A composição do filme foi feita por <strong>Hans Zimmer</strong>, que
+                        anteriormente já
+                        havia composto as músicas de outros filmes de Nolan, como a trilogia Batman e A Origem. A trilha
+                        recebeu aclamação crítica. Antes de seu lançamento digital, a trilha havia sido sido indicada
+                        para um prêmio na academia e na categoria Composição Original do Hollywood Music in Media
+                        Awards. A trilha sonora foi lançada no dia 17 de novembro de 2014 pela gravadora WaterTower
+                        Music, do grupo Warner Bros..</p>
+                </div>
+                <div class="col align-self-center img-zimmer ms-4">
+                    <img src="src/img/zimmer.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carrossel -->
+    <div class="container-fluid d-flex bg-black text-white pt-5 justify-content-center">
+        <h4 class="mt-5 ms-5 subtitle-nav" id="id-img">Imagens</h4>
+    </div>
+    <div class="container-fluid d-flex bg-black text-white pt-5 pb-5 justify-content-center">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="src/img/c1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="src/img/c2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="src/img/c3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="src/img/c4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="src/img/c5.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Form -->
+    <div class="container-fluid d-flex bg-black text-white pt-5 justify-content-center">
+        <div class="row">
+            <div class="col">
+                <label for="formGroupExampleInput" class="form-label">newsletter dev{cine}</label>
+                <input type="text" class="form-control" placeholder="Nome" aria-label="Nome">
+            </div>
+            <div class="col">
+                <label for="formGroupExampleInput" class="form-label">inscreva-se</label>
+                <input type="text" class="form-control" placeholder="E-mail" aria-label="E-mail">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <Footer class="container-fluid d-flex bg-black text-white pt-5 justify-content-center">
+        <p>Copyright &copy; Gabriela Ribeiro</p>
+    </Footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
         crossorigin="anonymous"></script>
     <script src="src/script.js"></script>
-
 </body>
 
 </html>
